@@ -1,0 +1,12 @@
+Source: cutie-sound-theme
+Section: libs
+Maintainer: Cutie Shell Developers <admin@cutie-shell.org>
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.1
+
+Package: cutie-sound-theme
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: This package contains Cutie's default sound theme.

@@ -1,0 +1,11 @@
+[Sound Theme]
+Name=Cutie Shell
+Comment=Cutie's default icon theme
+Example=phone-incoming-call
+Inherits=Default
+
+# Directory list
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
