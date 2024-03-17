@@ -10,3 +10,9 @@ Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: This package contains Cutie's default sound theme.
+
+Package: cutie-sound-theme-as-default
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, cutie-sound-theme
+Description: This package contains configuration to set Cutie's sound theme as system default.
